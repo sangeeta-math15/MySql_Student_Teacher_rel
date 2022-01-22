@@ -1,0 +1,29 @@
+2022-01-22 17:10:30,647:insert_mongo:ERROR:batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'keyPattern': {'_id': 1}, 'keyValue': {'_id': 1}, 'errmsg': 'E11000 duplicate key error collection: College_Management_System.teachers index: _id_ dup key: { _id: 1 }', 'op': {'_id': 1, 'tname': 'sudha'}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2022-01-22 17:10:30,647:insert_mongo:INFO:Inserted multiple documents
+
+2022-01-22 17:10:30,651:find_mongo:INFO:{'_id': 1, 'tname': 'sudha'}
+2022-01-22 17:10:30,651:find_mongo:INFO:{'_id': 2, 'tname': 'raj'}
+2022-01-22 17:10:30,652:find_mongo:INFO:Showed all documents
+
+2022-01-22 17:12:04,960:insert_mongo:ERROR:batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'keyPattern': {'_id': 1}, 'keyValue': {'_id': 1}, 'errmsg': 'E11000 duplicate key error collection: College_Management_System.students index: _id_ dup key: { _id: 1 }', 'op': {'_id': 1, 'sname': 'geeta', 'subject': 'datbase', 'score': 80}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2022-01-22 17:12:04,960:insert_mongo:INFO:Inserted multiple documents
+
+2022-01-22 17:12:04,965:find_mongo:INFO:{'_id': 1, 'sname': 'geeta', 'subject': 'datbase', 'score': 80}
+2022-01-22 17:12:04,966:find_mongo:INFO:{'_id': 2, 'sname': 'ram', 'subject': 'computer science', 'score': 90}
+2022-01-22 17:12:04,966:find_mongo:INFO:{'_id': 3, 'sname': 'keerthi', 'subject': 'computer network', 'score': 70}
+2022-01-22 17:12:04,966:find_mongo:INFO:Showed all documents
+
+2022-01-22 17:13:10,472:insert_mongo:ERROR:batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'keyPattern': {'_id': 1}, 'keyValue': {'_id': 1}, 'errmsg': 'E11000 duplicate key error collection: College_Management_System.teachers index: _id_ dup key: { _id: 1 }', 'op': {'_id': 1, 'tname': 'sudha'}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2022-01-22 17:13:10,473:insert_mongo:INFO:Inserted multiple documents
+
+2022-01-22 17:13:10,477:find_mongo:INFO:{'_id': 1, 'tname': 'sudha'}
+2022-01-22 17:13:10,477:find_mongo:INFO:{'_id': 2, 'tname': 'raj'}
+2022-01-22 17:13:10,477:find_mongo:INFO:Showed all documents
+
+2022-01-22 17:14:35,176:insert_mongo:ERROR:batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'keyPattern': {'_id': 1}, 'keyValue': {'_id': 1}, 'errmsg': 'E11000 duplicate key error collection: College_Management_System.teachers index: _id_ dup key: { _id: 1 }', 'op': {'_id': 1, 'tname': 'sudha'}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2022-01-22 17:14:35,177:insert_mongo:INFO:Inserted multiple documents
+
+2022-01-22 17:14:35,181:find_mongo:INFO:{'_id': 1, 'tname': 'sudha'}
+2022-01-22 17:14:35,181:find_mongo:INFO:{'_id': 2, 'tname': 'raj'}
+2022-01-22 17:14:35,181:find_mongo:INFO:Showed all documents
+
